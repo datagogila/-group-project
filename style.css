@@ -1,0 +1,163 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:cursive;
+    height: 2px;
+    background:white;
+    color:black ;
+  }
+  
+  h1, h2, h3 {
+    color:blue;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .div2 {
+    padding:50px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  
+  .div1 {
+    background: darkorchid;
+    color: white;
+    padding: 10px;
+  }
+  
+  .div2 {
+    text-align: center;
+  }
+  
+  .div2 img {
+    width: 250px;
+    border-radius: 20px;
+    margin: 1px;
+  }
+  
+  .div3 {
+    display: inline-block;
+    padding: 10px 20px;
+    background: lightgreen;
+    color: white;
+    text-decoration: none;
+    margin-top: 1px;
+  
+    transition:  0.3s;
+  }
+  
+  .div3:hover {
+    background: goldenrod;
+  }
+  
+  
+  .div5 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2px;
+    align-items: center;
+  }
+  
+  .div5 img {
+    width: 450px;
+    height: 800px;
+    border-radius: 20px;
+  }
+  
+  .div6 {
+    padding: 0;
+  }
+  
+  .div6 li {
+    margin-bottom: 10px;
+  }
+  
+  .bar {
+    height: 10px;
+    background: white;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  .bar.html { width: 100%; background:purple; }
+  .bar.css { width: 100%; background:cyan; }
+  .bar.js { width: 10%; background: greenyellow; }
+  
+  .div8 {
+    display: grid;
+    gap: 3px;;
+  }
+  
+  .div9 {
+    background:whitesmoke;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .div9:hover {
+    background: whitesmoke;
+    transform: scale(1.03);
+  }
+  
+  .div9 .header2 {
+    margin: 1px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 200px;
+    text-align: center;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    border: 1px solid deeppink;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background:darkviolet;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: darkorchid;
+  }
+  
+  
+  footer {
+    background: #2d3436;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  footer a {
+    color: #81ecec;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+footer a:hover {
+    text-decoration: underline;
+}
+  
+@media (max-width: 768px) {
+    .div5 {
+      grid-template-columns: 1fr;
+    }
+}
